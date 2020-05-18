@@ -23,7 +23,7 @@
          echo "Success";
       }else{
          print_r($errors);
-         $Test = 2;
+         $Test = 3;
       }
    }
 ?>
