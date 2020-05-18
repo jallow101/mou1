@@ -11,6 +11,7 @@
       
       if(in_array($file_ext,$extensions)=== false){
          $errors[]="extension not allowed, please choose a DOC or PDF file.";
+         
       }
       
       if($file_size > 500000000) {
